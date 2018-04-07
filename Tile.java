@@ -3,6 +3,6 @@
 */
 
 
-public final class Tile{
+public final class Tile {
 
 }
