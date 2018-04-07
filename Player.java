@@ -9,6 +9,7 @@ public final class Player {
     private int defense;
     private double critChance;
     private Location location;
+    private Inventory inventory;
 
     public Player(String name, String description, int maxHitPoints, int hitPoints, int minDamage,
         int maxDamage, int defense, double critChance, Location location) {
@@ -20,5 +21,7 @@ public final class Player {
         this.maxDamage = maxDamage;
         this.defense = defense;
         this.critChance = critChance;
+        this.location = location;
+        this.inventory = inventory;
     }
 }
