@@ -1,3 +1,3 @@
-public class Player {
-	
+public final class Player {
+
 }
