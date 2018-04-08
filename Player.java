@@ -12,7 +12,7 @@ public final class Player {
     private Inventory inventory;
 
     public Player(String name, String description, int maxHitPoints, int hitPoints, int minDamage,
-        int maxDamage, int defense, double critChance, Location location) {
+        int maxDamage, int defense, double critChance, Location location, Inventory inventory) {
         this.name = name;
         this.description = description;
         this.maxHitPoints = maxHitPoints;
