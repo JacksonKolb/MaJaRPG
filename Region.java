@@ -11,12 +11,9 @@ public final class Region {
     private ArrayList<Tile> tileList;
     private ArrayList<Region> neighborList;
 
-    public Region(String regionName, ArrayList tileList, ArrayList neighborList){
-
+    public Region(String regionName, ArrayList tileList, ArrayList neighborList) {
         this.regionName = regionName;
         this.tileList = tileList;
         this.neighborList = neighborList;
-
     }
-
 }
