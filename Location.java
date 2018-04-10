@@ -4,7 +4,11 @@
 
 public final class Location {
 
-    private static Tile tile;
-    private static Region region;
+    private Tile tile;
+    private Region region;
 
+    public Location(Tile tile, Region region) {
+        this.tile = tile;
+        this.region = region;
+    }
 }
