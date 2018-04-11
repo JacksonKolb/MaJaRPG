@@ -12,7 +12,7 @@ public final class Tile {
     private boolean border;
     private ArrayList<Tile> neighborList;
 
-    public Tile(Region tileRegion, boolean traversable, boolean border ArrayList neighborList) {
+    public Tile(Region tileRegion, boolean traversable, boolean border, ArrayList neighborList) {
         this.tileRegion = tileRegion;
         this.traversable = traversable;
         this.border = border;
