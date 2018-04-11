@@ -16,4 +16,17 @@ public final class Region {
         this.tileList = tileList;
         this.neighborList = neighborList;
     }
+
+    //TODO Add a getter for a specific tile in the Region list?
+    public String getRegionName() {
+        return regionName;
+    }
+
+    public ArrayList<Tile> getTileList() {
+        return tileList;
+    }
+
+    public ArrayList<Region> getNeighborList() {
+        return neighborList;
+    }
 }
