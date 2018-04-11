@@ -26,5 +26,49 @@ public final class Monster {
         this.aggression = aggression;
         this.location  = location;
         this.inventory = inventory;
-}
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public int getMaxHitPoints() {
+        return maxHitPoints;
+    }
+
+    public int getHitPoints() {
+        return hitPoints;
+    }
+
+    public int getMinDamage() {
+        return minDamage;
+    }
+
+    public int getMaxDamage() {
+        return maxDamage;
+    }
+
+    public int getDefense() {
+        return defense;
+    }
+
+    public double getCritChance() {
+        return critChance;
+    }
+
+    public boolean isAggressive() {
+        return aggression;
+    }
+
+    public Location getLocation() {
+        return location;
+    }
+
+    public Inventory getInventory() {
+        return inventory;
+    }
 }

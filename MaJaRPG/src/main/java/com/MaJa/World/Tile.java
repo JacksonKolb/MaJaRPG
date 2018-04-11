@@ -18,4 +18,20 @@ public final class Tile {
         this.border = border;
         this.neighborList = neighborList;
     }
+
+    public Region getTileRegion() {
+        return tileRegion;
+    }
+
+    public boolean isTraversable() {
+        return traversable;
+    }
+
+    public boolean isBorder() {
+        return border;
+    }
+
+    public ArrayList<Tile> getNeighborList() {
+        return neighborList;
+    }
 }

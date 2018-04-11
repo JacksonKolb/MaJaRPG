@@ -11,4 +11,12 @@ public final class Location {
         this.tile = tile;
         this.region = region;
     }
+
+    public Tile getTile() {
+        return tile;
+    }
+
+    public Region getRegion() {
+        return region;
+    }
 }
