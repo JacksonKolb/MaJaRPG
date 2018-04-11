@@ -1,7 +1,13 @@
 # MaJaRPG
 An open source text-based RPG game.
 
-## Testing
+## Contributors
+
+@MaxDMorrison6
+
+@JacksonKolb94
+
+### Testing
 
 make sure you have maven installed: `mvn --version` 
 
