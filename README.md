@@ -3,9 +3,11 @@ An open source text-based RPG game.
 
 ## Contributors
 
-@MaxDMorrison6
+@MaxMorrison6
 
 @JacksonKolb94
+
+@Avqtrinh
 
 ### Testing
 
