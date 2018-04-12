@@ -5,17 +5,10 @@ public final class Npc extends Actor {
 	 private boolean isQuestGiver;
 	 private boolean isMerchant;
 	 
-	   public Npc(String name, String description, int maxHitPoints,
-	            int minDamage, int maxDamage, int defense, double critChance, boolean isQuestGiver,
+	   public Npc(String name, String description, boolean isQuestGiver,
 	            boolean isMerchant, Location location, Inventory inventory) {
 	        this.name = name;
 	        this.description = description;
-	        this.maxHitPoints = maxHitPoints;
-	        this.hitPoints = maxHitPoints;
-	        this.minDamage = minDamage;
-	        this.maxDamage = maxDamage;
-	        this.defense = defense;
-	        this.critChance = critChance;
 	        this.isQuestGiver = isQuestGiver;
 	        this.isMerchant = isMerchant;
 	        this.location  = location;
