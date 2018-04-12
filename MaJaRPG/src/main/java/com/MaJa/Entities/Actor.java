@@ -1,3 +1,5 @@
+package com.MaJa.Entities;
+
 public class Actor{
 	
 	private String name;

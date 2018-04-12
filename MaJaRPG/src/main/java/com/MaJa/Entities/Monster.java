@@ -1,5 +1,8 @@
-public final class Monster extends Actor {
+package com.MaJa.Entities;
 
+
+public final class Monster extends Actor {
+	
     private boolean aggression;
 
     public Monster(String name, String description, int maxHitPoints,
