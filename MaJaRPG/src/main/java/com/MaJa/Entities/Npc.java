@@ -1,6 +1,4 @@
-/* Max Morrison & Jackson Kolb
-    Npc class handles all of the npc actions
-*/
+package com.MaJa.Entities;
 
 public final class Npc extends Actor {
 
