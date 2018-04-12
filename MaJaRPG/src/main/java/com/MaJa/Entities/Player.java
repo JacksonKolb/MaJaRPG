@@ -1,4 +1,4 @@
-public final class Player implements Actor {
+public final class Player Extends Actor {
 
     public Player(String name, String description, int maxHitPoints, int hitPoints, int minDamage,
         int maxDamage, int defense, double critChance, Location location) {

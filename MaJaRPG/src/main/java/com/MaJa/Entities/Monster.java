@@ -1,4 +1,4 @@
-public final class Monster implements Actor {
+public final class Monster extends Actor {
 
     private boolean aggression;
 

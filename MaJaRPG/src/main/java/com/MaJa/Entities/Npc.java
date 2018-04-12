@@ -2,7 +2,7 @@
     Npc class handles all of the npc actions
 */
 
-public final class Npc implements Actor {
+public final class Npc extends Actor {
 
 	 private boolean isQuestGiver;
 	 private boolean isMerchant;

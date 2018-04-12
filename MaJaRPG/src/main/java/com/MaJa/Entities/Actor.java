@@ -1,4 +1,4 @@
-public interface Actor{
+public class Actor{
 	
 	private String name;
     private String description;
