@@ -1,3 +1,5 @@
+package com.MaJa.World;
+
 import java.util.ArrayList;
 
 /* Max Morrison & Jackson Kolb

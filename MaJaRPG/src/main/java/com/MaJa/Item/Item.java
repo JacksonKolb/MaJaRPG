@@ -1,3 +1,5 @@
+package com.MaJa.Item;
+
 public class Item {
 
     private String name;

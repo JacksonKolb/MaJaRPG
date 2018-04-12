@@ -1,3 +1,6 @@
+package com.MaJa.Entities;
+
+
 public final class Monster {
 
     private String name;

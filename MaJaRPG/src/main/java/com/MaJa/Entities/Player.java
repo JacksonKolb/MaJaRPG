@@ -1,3 +1,5 @@
+package com.MaJa.Entities;
+
 public final class Player {
 
     private final String name;
