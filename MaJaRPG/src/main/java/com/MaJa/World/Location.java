@@ -1,3 +1,5 @@
+package com.MaJa.World;
+
 /* Max Morrison & Jackson Kolb
     Location class handles all of the Tile and Region class objects for any other class
 */
