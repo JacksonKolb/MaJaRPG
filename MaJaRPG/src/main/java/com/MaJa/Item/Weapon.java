@@ -10,5 +10,4 @@ public class Weapon extends Item {
         this.description = description;
         this.modifiers = modifiers;
     }
-
 }
