@@ -1,10 +1,10 @@
-package com.MaJa.Entities;
+package com.maja.entities;
 
 public final class Npc extends Actor {
 
 	 private boolean isQuestGiver;
 	 private boolean isMerchant;
-	 
+
 	   public Npc(String name, String description, boolean isQuestGiver,
 	            boolean isMerchant, Location location, Inventory inventory) {
 	        this.name = name;
@@ -14,11 +14,11 @@ public final class Npc extends Actor {
 	        this.location  = location;
 	        this.inventory = inventory;
 	    }
-	
+
 	   public boolean isQuestGiver() {
 		   return isQuestGiver;
 	   }
-	   
+
 	   public boolean isMerchant() {
 		   return isMerchant;
 	   }

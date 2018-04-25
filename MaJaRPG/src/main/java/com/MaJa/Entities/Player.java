@@ -1,4 +1,4 @@
-package com.MaJa.Entities;
+package com.maja.entities;
 
 public final class Player extends Actor {
 

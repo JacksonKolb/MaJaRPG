@@ -1,4 +1,4 @@
-package com.MaJa.World;
+package com.maja.world;
 
 import java.util.ArrayList;
 

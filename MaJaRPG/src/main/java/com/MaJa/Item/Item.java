@@ -1,4 +1,4 @@
-package com.MaJa.Item;
+package com.maja.item;
 
 public class Item {
 

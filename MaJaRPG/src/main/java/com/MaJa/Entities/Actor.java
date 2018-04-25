@@ -1,7 +1,7 @@
-package com.MaJa.Entities;
+package com.maja.entities;
 
 public class Actor{
-	
+
 	private String name;
     private String description;
     private int maxHitPoints;
@@ -11,8 +11,8 @@ public class Actor{
     private int defense;
     private double critChance;
     private Location location;
-    private Inventory inventory;	
-	
+    private Inventory inventory;
+
     public String getName() {
         return name;
     }

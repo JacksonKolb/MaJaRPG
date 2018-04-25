@@ -1,4 +1,4 @@
-package com.MaJa.Inventory;
+package com.maja.inventory;
 
 import java.util.HashMap;
 
